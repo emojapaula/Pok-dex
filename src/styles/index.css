@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Arcade";
+  src: local("Arcade"), url(./fonts/Arcade.TTF) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  font-family: "Arcade";
+}

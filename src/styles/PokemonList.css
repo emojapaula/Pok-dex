@@ -1,0 +1,23 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+body {
+  background-color: #cfefc6;
+}
+/*width: 20%;
+  height: 150px;
+  margin: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+/*main {
+  width:150px;
+  height:150px;
+  border:1px solid black;
+  display:flex;
+  flex-wrap:wrap;
+}
+*/

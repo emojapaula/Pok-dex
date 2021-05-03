@@ -1,0 +1,35 @@
+.nav {
+  background: #808f85;
+  background: #003249;
+  align-items: center;
+  height: 85px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  font-size: 2rem;
+}
+
+.left {
+  margin-left: 65px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, auto);
+  float: left;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #f2bac9;
+}
+.right {
+  margin-left: 1000px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
